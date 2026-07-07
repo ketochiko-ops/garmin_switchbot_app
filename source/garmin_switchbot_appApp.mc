@@ -18,7 +18,8 @@ class garmin_switchbot_appApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new garmin_switchbot_appView() ];
+        var view = new garmin_switchbot_appView();
+        return [ view, new SwitchBotDelegate(view) ];
     }
 
 }

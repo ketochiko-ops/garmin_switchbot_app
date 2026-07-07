@@ -1,0 +1,14 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <setting propertyKey="@Properties.SwitchBotToken" title="@Strings.TokenTitle">
+        <settingConfig type="password" />
+    </setting>
+    <setting propertyKey="@Properties.SwitchBotSecret" title="@Strings.SecretTitle">
+        <settingConfig type="password" />
+    </setting>
+    <setting propertyKey="@Properties.SwitchBotDeviceId" title="@Strings.DeviceIdTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+    <setting propertyKey="@Properties.SwitchBotDeviceName" title="@Strings.DeviceNameTitle">
+        <settingConfig type="alphaNumeric" />
+    </setting>
+</settings>
